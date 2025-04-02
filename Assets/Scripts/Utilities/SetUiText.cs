@@ -9,6 +9,6 @@ public class SetUiText : MonoBehaviour {
     private string fixedText;
 
     public void OnSliderValueChanged(float numericValue) {
-        textField.text = $"{fixedText}: {numericValue}";
+        textField.text = $"{fixedText}";
     }
 }
