@@ -1,12 +1,12 @@
 {
 	"TargetList": [
 		{
-			"Name": "CoffeeMachine",
+			"Name": "SteveJobsHall",
 			"FloorNumber": 0,
 			"Position": {
-				"x": -4.49,
-				"y": 0.00,
-				"z": -1.99
+				"x": 0.00,
+				"y": 1.00,
+				"z": 0.70
 			},
 			"Rotation": {
 				"x": 0.0,
@@ -15,12 +15,12 @@
 			}
 		},
 		{
-			"Name": "MainEntrance",
+			"Name": "GirlsToilet",
 			"FloorNumber": 0,
 			"Position": {
-				"x": -8.38,
-				"y": 0.00,
-				"z": -2.23
+				"x": -0.06,
+				"y": 1.00,
+				"z": -4.15
 			},
 			"Rotation": {
 				"x": 0.0,
@@ -29,12 +29,12 @@
 			}
 		},
 		{
-			"Name": "BedRoom",
+			"Name": "SystemsLab",
 			"FloorNumber": 0,
 			"Position": {
-				"x": -1.01,
+				"x": 26.3,
 				"y": 0.00,
-				"z": -5.31
+				"z": -10.00
 			},
 			"Rotation": {
 				"x": 0.0,
@@ -43,12 +43,12 @@
 			}
 		},
 		{
-			"Name": "Kitchen",
+			"Name": "CSEFacultyRoom2",
 			"FloorNumber": 0,
 			"Position": {
-				"x": -6.57,
+				"x": 34.00,
 				"y": 0.00,
-				"z": -0.99
+				"z": -10.00
 			},
 			"Rotation": {
 				"x": 0.0,
@@ -57,12 +57,12 @@
 			}
 		},
 		{
-			"Name": "StartPoint",
+			"Name": "PowerSystemsLab",
 			"FloorNumber": 0,
 			"Position": {
-				"x": 0.00,
+				"x": 42.00,
 				"y": 0.00,
-				"z": 0.00
+				"z": -10.00
 			},
 			"Rotation": {
 				"x": 0.0,
@@ -71,12 +71,12 @@
 			}
 		},
 		{
-			"Name": "LivingRoom",
+			"Name": "EmbeddedSystemsLab",
 			"FloorNumber": 0,
 			"Position": {
-				"x": 0.00,
+				"x": 52.80,
 				"y": 0.00,
-				"z": 0.00
+				"z": -10.00
 			},
 			"Rotation": {
 				"x": 0.0,
@@ -85,12 +85,12 @@
 			}
 		},
 		{
-			"Name": "ExtraRoom",
-			"FloorNumber": 1,
+			"Name": "Training&Placement",
+			"FloorNumber" : 0,
 			"Position": {
-				"x": -5.68,
-				"y": 0.00,
-				"z": -5.67
+				"x": 60.15,
+				"y": 0.0,
+				"z": -10.00
 			},
 			"Rotation": {
 				"x": 0.0,
@@ -99,12 +99,40 @@
 			}
 		},
 		{
-			"Name": "SecondMainEntrance",
-			"FloorNumber": 1,
+			"Name": "CSEFacultyRoom1",
+			"FloorNumber": 0,
 			"Position": {
-				"x": -8.15,
+				"x": 68.00,
 				"y": 0.00,
-				"z": -0.48
+				"z": -11.00
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "CSEDeptLibrary",
+			"FloorNumber": 0,
+			"Position": {
+				"x": 75.00,
+				"y": 0.00,
+				"z": -10.00
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "Bay4",
+			"FloorNumber": 0,
+			"Position": {
+				"x": 79.00,
+				"y": 0.00,
+				"z": -11.00
 			},
 			"Rotation": {
 				"x": 0.0,
