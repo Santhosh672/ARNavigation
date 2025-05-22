@@ -5,6 +5,10 @@ using UnityEngine;
 
 public class TargetHandler : MonoBehaviour {
 
+    public string TargetName;
+    EnablePopup enablePopup;
+    [SerializeField] GameObject colliderChecker; 
+
     [SerializeField]
     private NavigationController navigationController;
     [SerializeField]
@@ -19,9 +23,12 @@ public class TargetHandler : MonoBehaviour {
 
     private List<TargetFacade> currentTargetItems = new List<TargetFacade>();
 
-    private void Start() {
+    private void Start()
+    {
         GenerateTargetItems();
         FillDropdownWithTargetItems();
+        
+        enablePopup = colliderChecker.GetComponent<EnablePopup>();
     }
 
     private void GenerateTargetItems() {
@@ -59,7 +66,8 @@ public class TargetHandler : MonoBehaviour {
         targetDataDropdown.AddOptions(targetFacadeOptionData);
     }
 
-    public void SetSelectedTargetPositionWithDropdown(int selectedValue) {
+    public void SetSelectedTargetPositionWithDropdown(int selectedValue)
+    {
         navigationController.TargetPosition = GetCurrentlySelectedTarget(selectedValue);
     }
 
@@ -67,7 +75,8 @@ public class TargetHandler : MonoBehaviour {
         if (selectedValue >= currentTargetItems.Count) {
             return Vector3.zero;
         }
-
+        TargetName = currentTargetItems[selectedValue].FloorNumber + " - " + currentTargetItems[selectedValue].Name;
+        enablePopup.SetTarget(TargetName);
         return currentTargetItems[selectedValue].transform.position;
     }
 
