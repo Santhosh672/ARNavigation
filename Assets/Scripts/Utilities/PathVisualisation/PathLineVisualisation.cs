@@ -20,10 +20,10 @@ public class PathLineVisualisation : MonoBehaviour {
         AddLineOffset();
         SetLineRendererPositions();
 
-        for (int i = 0; i < path.corners.Length - 1; i++)
-        {
-            Debug.DrawLine(path.corners[i], path.corners[i + 1], Color.red, 1f);
-        }
+        // for (int i = 0; i < path.corners.Length - 1; i++)
+        // {
+        //     Debug.DrawLine(path.corners[i], path.corners[i + 1], Color.red, 1f);
+        // }
     }
 
     private void AddOffsetToPath() {
